@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round|Crushed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<header class="heading"><h1>The Crystal Collector</h1></header>
+	<main class="main">
+		<div id="instructions"><p>You will be given a random magic number at the start of the game.</p><p>There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.</p><p>You win the game by matching your total score to the magic number.  You lose the game if your total score goes above the random number</p><p>The value of each crystal is hidden from you until you click on it.</p><p>Each time the game restarts, teh game will change the value of each crystal.</p></div>
+		<div class="tally"><div class="subHeading"><div id="winHead">Win</div><div id="lossHead">Loss</div><div class="clear"></div></div><div id="win">0</div><div id="loss">0</div></div>
+		<div id="randomNumberBox"><div class="subHeading"><h2>Magic Number</h2></div><div id="randomNumber">0</div></div>
+		<div id="userScoreBox"><div class="subHeading"><h2>Your Score</h2></div><div id="userScore">0</div></div>
+		<div class="userCrystals"><img src="assets/images/crystalicon1.png" id="userClick1"><img src="assets/images/crystalicon2.png" id="userClick2"><img src="assets/images/crystalicon3.png" id="userClick3"><img src="assets/images/crystalicon4.png" id="userClick4"></div>
+		
+	</main>
+	<footer class="footer">&copy;2017 David Rosenberg | GA Tech Bootcamp</footer>
+
+	<!-- =====  Spice things up with music!!!    ===== -->
+
+	<iframe width="0" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/13014920&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+
+</div>
+</body>
+</html>
